@@ -15,7 +15,6 @@ p {
 .container {
   width: 385px;
   margin: 200px auto;
-  align-items: center;
   padding: 23px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
