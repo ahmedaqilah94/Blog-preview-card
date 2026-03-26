@@ -14,7 +14,7 @@ p {
 }
 .container {
   width: 385px;
-  margin: 230px auto;
+  margin: 200px auto;
   padding: 23px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
@@ -34,6 +34,7 @@ p {
   width: fit-content;
   padding: 6px 10px;
   margin-bottom: 15px;
+  font-size: 16px;
 }
 .published-date {
   margin-bottom: 20px;
@@ -47,6 +48,9 @@ p {
 }
 
 .course-link:active {
+  color: hsl(47, 88%, 63%);
+}
+.course-link:focus-visible {
   color: hsl(47, 88%, 63%);
 }
 .logo-partition {
